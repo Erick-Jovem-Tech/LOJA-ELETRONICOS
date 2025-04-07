@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/assets/paginas/login.html"></a></li>
+            <li><a href="/assets/paginas/cardapio.html">Cardápio</a></li>
+            <li><a href="/assets/paginas/formulario.html">Formulário</a></li>
+            <li><a href="/assets/paginas/lista.html">Lista</a></li>
+            <li><a href="/assets/paginas/quemsomos.html">Quem somos</a></li>
+            <li><a href="/assets/paginas/tabela.html">Tabela</a></li>
+            <li><a href="/index.html">Home page</a></li>
+        </ul>
+    </nav>
+
+    <h1>FORMULARIO</h1>
+
+    <form>
+            <label for=" ">Cliente</label>
+            <input type="text" name="Cliente" id="Cliente" placeholder="Digite seu nome">
+            <label for="">Telefone</label>
+            <input type="text" name="Telefone" id="Telefone" placeholder="Digite seu número">
+            <label for="">Email</label>
+            <input type="text" name="Email" id="Email" placeholder="Digite seu Email">
+            <label for="">Endereço</label>
+            <input type="text" name="Endereco" id="Endereco" placeholder="Digite seu endereço">
+            <label for=" ">Qual seu gênero?</label>
+            <select name=" " id="">
+                <option value="">Cisgênero</option>
+                <option value="">Transgênero</option>
+                <option value="">Binário</option>
+                <option value="">Não-Binário</option>
+                <option value="">Prefiro não opinar</option>
+            </select>
+
+        <label for="">Casado</label>
+        <input type="radio" value="Casado" name="estado">
+        <label for=""> Solteiro</label>
+        <input type="radio" value="Solteiro" name="estado">
+        <label for="">Divorciado</label>
+        <input type="radio" value="Divorciado" name="estado">
+        <label for="">Como conheceu o site?</label>
+
+            <select name="" id="">
+                <option value="">Programa de TV</option>
+                <option value="">Internet</option>
+                <option value="">Indicação</option>
+                <option value="">Revistas e Jornais</option>
+                <option value="">Prefiro não opinar</option>
+            </select>
+
+
+
+            <button value="enviar" name="enviar">Enviar</button>
+            <button value="limpar" name="limpar">Limpar</button>
+    </form>
+    
+    <script src="main.js"></script>
+</body>
+</html>
